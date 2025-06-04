@@ -1,0 +1,20 @@
+@import "../../assets/styles/variable.scss";
+.service-item {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+
+  .service-icon {
+    color: $primary;
+  }
+
+  &:hover {
+    background: $primary;
+    * {
+      color: $light;
+    }
+  }
+
+  * {
+    transition: 0.5s;
+  }
+}
